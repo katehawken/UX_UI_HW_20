@@ -4,12 +4,15 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #7097A8 !important;
-
+  color: #7097A8 !important;
 }
 
 p {
   font-size: 30;
+}
+
+.p1 {
+  font-size: 30px;
 }
 
 .role {
@@ -19,11 +22,6 @@ p {
 h1 {
   text-align: center;
   padding-top: 50px;
-}
-.navbar {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 70px;
 }
 
 .nav-item {
@@ -49,8 +47,13 @@ h1 {
 footer {
   background-color: #7097A8;
   size: 100%;
+
 }
 
 .copyright {
+  color: white;
+}
+
+a {
   color: white;
 }
