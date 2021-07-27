@@ -7,12 +7,35 @@ body {
   color: #7097A8 !important;
 }
 
+.nav-item {
+  display: flex;
+  position: block;
+  padding: .5rem 1rem;
+}
+
+.navbar-nav {
+  float:none;
+  margin:0 auto;
+  display: block;
+  text-align: center;
+  font-size: 17px;
+}
+
+.navbar-nav li {
+  display: inline-block;
+  float:none;
+}
+
+.gap100 {
+  padding: 70px 0px;
+ }
+
 p {
   font-size: 30;
 }
 
 .p1 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .role {
@@ -21,39 +44,107 @@ p {
 
 h1 {
   text-align: center;
+  padding-top: 100px;
+}
+
+.herotext {
+  text-align: left;
   padding-top: 50px;
+  font-size: 55px;
 }
 
-.nav-item {
-  display: flex;
-  position: block;
-  justify-content: right;
-  align-items: right;
-  padding: .5rem 1rem;
-}
 
-.gap100 {
- padding: 70px 0px;
-}
-
-.smed i {
+.btn-primary{
+  border: none;
   color: white;
-  font-size: 30px;
-  margin: 10px;
-  padding-top: 10px;
+  background-color: #E6CDB5;
+  padding: 14px 150px;
+  text-align: center;
+  border-radius: 12px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+background-color: #d7af89;
+color: white;
+}
+
+
+.largetext {
+text-align: center;
+padding-top: 50px;
+font-size: 55px;
+}
+
+.embed-responsive .card-img-top {
+  object-fit: cover;
+}
+
+.card {
+  border: 0;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 
 footer {
   background-color: #7097A8;
-  size: 100%;
-
+  width: 100%;
 }
 
 .copyright {
   color: white;
+  margin: 0;
+}
+
+.social-icons i {
+  display: flex;
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+  padding-top: 10px;
+  grid-column: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links {
+  float:none;
+  margin:0 auto;
+  display: block;
+  text-align: center;
+  font-size: 17px;
+}
+
+.navbar-links li {
+  display: inline-block;
+  float:none;
 }
 
 a {
   color: white;
+}
+
+.text-light {
+  margin: 0;
+}
+
+.float-right {
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 70px 0px;
+}
+
+.mb-5, .my-5 {
+  margin-bottom: 0!important;
+}
+
+li {
+  list-style: none;
 }

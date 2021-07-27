@@ -15,7 +15,7 @@
 <body>
 
     <header>
-      <nav class="navbar navbar-expand-md navbar-light fixed-top">
+      <nav class="navbar navbar-expand-md navbar-light">
         <a class="navbar-brand" href="#"><img src="images/Logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -38,20 +38,38 @@
         </div>
       </nav>
 
+      <div id="list-example" class="list-group">
+        <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-2">Item2</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+      </div>
+      <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+        <h4 id="list-item-1">Item 1</h4>
+        <p>...</p>
+        <h4 id="list-item-2">Item 2</h4>
+        <p>...</p>
+        <h4 id="list-item-3">Item 3</h4>
+        <p>...</p>
+        <h4 id="list-item-4">Item 4</h4>
+        <p>...</p>
+      </div>
+
+
     <!-- Hero Image and Intro -->
 
         <div class="container">
           <div class="row gap100">        
 
               <div class="col-md-6">  
-              <h1>Blue Cross Animals Redesign</h1>      
+              <h1 class="herotext">Blue Cross Animals Redesign</h1>      
               <p class="p1">Non-for-Profit Redesign</p>
               <p class="p1">2021 UX/UI Case Study</p>
               <p>Duration: 3 Weeks </p>
                </div>
                
                <div class="col-md-6">
-                <img src="images/heroimage.png"class="img-responsive"/>
+                <img src="images/heroimage.png"class="img-fluid"/>
            </div>
         </div>
 
@@ -77,18 +95,16 @@
               </div>
          </div>
 
-<hr class="divider">
 
 <h1>My Role</h1>
       <p class="lead role">The team and I worked through every step together.</p>
       <img src="images/myrole.png"class="img-fluid"/>
 
-<hr class="divider">
+
 
 <h1>Our User</h1>
       <img src="images/userpersona.JPG"class="img-fluid"/>
 
-<hr class="divider">
 
 <h1>The Problem</h1>
 <div class="container-fluid">
@@ -106,15 +122,14 @@
         <img src="images/problem.png"class="img-fluid"/>
        </div>
  </div>
+</div>
 
- <hr class="divider">
 
  <h1>First Concept</h1>
 
 
 
 
- <hr class="divider">
 
 <h1>Our Solutions</h1>
         <div class="container-fluid">
@@ -134,6 +149,7 @@
             <img class="featurette-image img-fluid mx-auto" style="width: 350px; height: 330px;" src="images/solution1a.png" data-holder-rendered="true">
           </div>
         </div>
+
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
@@ -173,109 +189,86 @@
       </div>
     </div>
 
-     <hr class="divider">
 
 <h1>Future Development</h1>
-     <div class="container-fluid">
-      <div class="row">
 
-        <div class="col-xs-2">
-          <figure>
-            <img src="images/future1.png" alt="">
-            <figcaption><h2>Ability to have your quiz results stored</h2>
-            <p>If someone doesn't find the right match now, when there’s new arrival in need of a forever home, the quiz results are in line with the needs of that pet, they will receive a notification.</p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-xs-2">
-          <figure>
-            <img src="images/future2.png" alt="">
-            <figcaption><h2>Digitising application process</h2>
-            <p>Currently they have PDF forms to print out, scan and then email through. We would simplify this process to be able to fill out the form and send it off right there, right then.</p>
-            </figcaption>
-          </figure>
-        </div>
-</div>
-</div>
-</div>
-</div>
-
-
-<!-- Footer -->
-<footer class="page-footer">
-
-  <!-- Footer Links -->
-  <div class="container-fluid">
-
-    <!-- Grid row-->
-    <div class="row text-center d-flex justify-content-center pt-5 mb-3">
-      
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase white-text">
-          <a href="#!">Home</a>
-        </h6>
+<div class="container">
+  <div class="card-columns d-flex justify-content-center">
+    <div class="card">
+      <div class="embed-responsive embed-responsive-16by9">
+         <img alt="Card image cap" class="card-img-top embed-responsive-item" src="images/future1.png" />
       </div>
-      <!-- Grid column -->
-      
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase white-text">
-          <a href="#!">About</a>
-        </h6>
+      <div class="card-block">
+        <h4 class="card-title">Ability to have your quiz results stored</h4>
+        <p class="card-text">If someone doesn't find the right match now, when there’s new arrival in need of a forever home, the quiz results are in line with the needs of that pet, they will receive a notification.</p>
       </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase white-text">
-          <a href="#!">Projects</a>
-        </h6>
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase white-text">
-          <a href="#!">Resume</a>
-        </h6>
-      </div>
-
-      <!-- Grid column -->
-      <div class="row text-center d-flex justify-content-center">
-
-        <div class="col-md-4 smed">
-          <!--Behance -->
-          <a href="#behance">
-            <i class="fab fa-behance"></i>
-          </a>
-          <!--Dribble-->
-          <a href="#dribbble">
-          <i class="fab fa-dribbble"></i>
-          </a>
-          <!--Pinterest-->
-          <a class="#linkedin">
-            <a href="#linkedin"> 
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </div>
-
-      </div>
-      <!-- Grid column -->
-
     </div>
-    <!-- Grid row-->
-
+    <div class="card">
+      <div class="embed-responsive embed-responsive-16by9">
+         <img alt="Card image cap" class="card-img-top embed-responsive-item" src="images/future2.png" />
+      </div>
+      <div class="card-block">
+        <h4 class="card-title">Digitising application process</h4>
+        <p class="card-text">Currently they have PDF forms to print out, scan and then email through. We would simplify this process to be able to fill out the form and send it off right there, right then.</p>
+      </div>
+    </div>
   </div>
-  <!-- Footer Links -->
-
-  <!-- Back to top -->
-  <p class="backtotop float-right"><a href="#">Back to top</a></p>
-  <p class="text-light copy">© 2021 katehawken</p>
 </div>
 
+
+<h1 class="largetext">Let's Connect!</h1>
+
+<div class="container">
+  <div class="row">
+  <div class="col text-center">
+    <button type="button" class="btn btn-primary">Connect</button>
+    </div>
+      </div>
+      </div>
+      </div>
+
+
 <!-- Footer -->
-      </footer>
+
+<footer class="footer">
+  <div class="container">
+  <div class="row mb-5">
+  <div class="col-md-4">
+  </div>
+  
+  <div class="col-md-8 text-md-right">
+    <ul class="list-unstyled social-icons">
+      <li><a href="#" class="be"><i class="fab fa-behance-square"></i></a>
+      <li><a href="#" class="dr"><i class="fab fa-dribbble-square"></i></a>
+      <li><a href="#" class="li"><i class="fab fa-linkedin"></i></a>
+      </ul>
+  </div>
+  </div>
+
+  <div class="row mb-5">
+  <div class="col-md-6 ">
+  </div>
+
+  <div class="col-md-6 text-md-right">
+    <ul class="nav-links list-unstyled">
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">PROJECTS</a></li>
+      <li><a href="#">RESUME</a></li>
+    </ul>
+  </div>
+  </div>
+
+  <div class="row">
+  <div class="col">
+  <div class="copyright">
+  <p><small>Copyright katehawken 2021</small></p>
+   </div>
+    </div>
+     </div>
+     </div>
+  </footer>
+<!-- Footer -->
     </main>
 
     <!-- Bootstrap JavaScript
