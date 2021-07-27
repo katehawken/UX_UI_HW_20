@@ -4,7 +4,7 @@
 <title>UI UX HW 20</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Fonts & Icons -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <!-- CSS -->
@@ -39,16 +39,13 @@
       </nav>
 
       <div id="list-example" class="list-group">
-        <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-2">Item2</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-1">Project Overview</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-2">My Role</a>
         <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
         <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
       </div>
       <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-        <h4 id="list-item-1">Item 1</h4>
-        <p>...</p>
-        <h4 id="list-item-2">Item 2</h4>
-        <p>...</p>
+
         <h4 id="list-item-3">Item 3</h4>
         <p>...</p>
         <h4 id="list-item-4">Item 4</h4>
@@ -76,12 +73,12 @@
  <hr class="divider">
 
         <!-- Content -->
-        <h1>Project Overview</h1>
+        <h1 id="list-item-1">Project Overview</h1>
          <div class="container-fluid">
           <div class="row gap100">    
 
             <div class="col-md-6">  
-              <img src="images/projectoverview.png"class="img-fluid"/>
+              <img src="images/projectoverview.png" width= "400px" class="img-fluid"/>
              </div>
 
               <div class="col-md-6">
@@ -96,7 +93,7 @@
          </div>
 
 
-<h1>My Role</h1>
+      <h1 id="list-item-2">My Role</h1>
       <p class="lead role">The team and I worked through every step together.</p>
       <img src="images/myrole.png"class="img-fluid"/>
 
@@ -160,9 +157,9 @@
               
               <p class="lead">This included making:</p>
               
-              <li>Donation categories</li>
-              <li>Simple step by step guides</li>
-              <li>Clear payment buttons users are familiar with</li>
+              <li>- Donation categories</li>
+              <li>- Simple step by step guides</li>
+              <li>- Clear payment buttons users are familiar with</li>
               </p>
           </div>
           <div class="col-md-5 order-md-1">
@@ -177,9 +174,9 @@
 
               <pp class="lead">To make things easier for our users we added:</p>
               
-              <li>A search bar for our users to find information</li> 
-              <li>Efficient scrolling through article tiles</li>
-              <li>Filters for database tags, such as dog or cat, training..</li>
+              <li>- A search bar for our users to find information</li> 
+              <li>- Efficient scrolling through article tiles</li>
+              <li>- Filters for database tags, such as dog or cat, training..</li>
             </p>
           </div>
           <div class="col-md-5">
@@ -215,7 +212,7 @@
   </div>
 </div>
 
-
+<section class="connect">
 <h1 class="largetext">Let's Connect!</h1>
 
 <div class="container">
@@ -226,48 +223,33 @@
       </div>
       </div>
       </div>
-
+</section>
 
 <!-- Footer -->
 
-<footer class="footer">
-  <div class="container">
-  <div class="row mb-5">
-  <div class="col-md-4">
-  </div>
-  
-  <div class="col-md-8 text-md-right">
-    <ul class="list-unstyled social-icons">
-      <li><a href="#" class="be"><i class="fab fa-behance-square"></i></a>
-      <li><a href="#" class="dr"><i class="fab fa-dribbble-square"></i></a>
-      <li><a href="#" class="li"><i class="fab fa-linkedin"></i></a>
-      </ul>
-  </div>
-  </div>
+<div class="footer">
+	<div class="list-inline">
+		<ul class="list-inline">
+			<li class="list-inline-item"><a href="#">Home</a></li>
+			<li class="list-inline-item"><a href="#">About</a></li>
+			<li class="list-inline-item"><a href="#">Projects</a></li>
+			<li class="list-inline-item"><a href="#">Resume</a></li>
+		</ul>
+		</div>
 
-  <div class="row mb-5">
-  <div class="col-md-6 ">
-  </div>
+	<div class="social">
+		<a href="#linkedin" class="fa fa-linkedin"></a>
+		<a href="#dribbble" class="fa fa-dribbble"></a>
+		<a href="#behance" class="fa fa-behance"></a>
+	</div>
 
-  <div class="col-md-6 text-md-right">
-    <ul class="nav-links list-unstyled">
-      <li><a href="#">HOME</a></li>
-      <li><a href="#">ABOUT</a></li>
-      <li><a href="#">PROJECTS</a></li>
-      <li><a href="#">RESUME</a></li>
-    </ul>
-  </div>
-  </div>
+		<div class="copyrightfooter">
+		<p class="copyright">©katehawken 2021</p>
+	</div>
+</div>
+</div>
+</div>
 
-  <div class="row">
-  <div class="col">
-  <div class="copyright">
-  <p><small>Copyright katehawken 2021</small></p>
-   </div>
-    </div>
-     </div>
-     </div>
-  </footer>
 <!-- Footer -->
     </main>
 
