@@ -15,7 +15,8 @@
 <body>
 
     <header>
-      <nav class="navbar navbar-expand-md navbar-light">
+       <!-- Main Nav -->
+      <nav class="navbar navbar-expand-md navbar-light fixed-top">
         <a class="navbar-brand" href="#"><img src="images/Logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -23,7 +24,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">ABOUT</a>
@@ -38,19 +39,20 @@
         </div>
       </nav>
 
-      <div id="list-example" class="list-group">
+   <!-- Projects Nav -->
+      <div id="list-example" class="list-group"> <div class="mt-5 mb-3 sticky-top" id="side">
         <a class="list-group-item list-group-item-action" href="#list-item-1">Project Overview</a>
         <a class="list-group-item list-group-item-action" href="#list-item-2">My Role</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-3">Our User</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-4">The Problem</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-5">First Concept</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-6">Our Solutions</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-7">Future Development</a>
       </div>
-      <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-
-        <h4 id="list-item-3">Item 3</h4>
-        <p>...</p>
-        <h4 id="list-item-4">Item 4</h4>
-        <p>...</p>
+      <div data-spy="scroll" data-target="#list-example" data-offset="0">
       </div>
+    </ul>
+    </div>
 
 
     <!-- Hero Image and Intro -->
@@ -65,14 +67,15 @@
               <p>Duration: 3 Weeks </p>
                </div>
                
-               <div class="col-md-6">
+               <div class="col-md-6 heroimage">
                 <img src="images/heroimage.png"class="img-fluid"/>
            </div>
         </div>
 
+
  <hr class="divider">
 
-        <!-- Content -->
+<!-- Project Overview Section -->
         <h1 id="list-item-1">Project Overview</h1>
          <div class="container-fluid">
           <div class="row gap100">    
@@ -92,18 +95,20 @@
               </div>
          </div>
 
-
-      <h1 id="list-item-2">My Role</h1>
-      <p class="lead role">The team and I worked through every step together.</p>
-      <img src="images/myrole.png"class="img-fluid"/>
-
-
-
-<h1>Our User</h1>
-      <img src="images/userpersona.JPG"class="img-fluid"/>
+<!-- My Role Section -->
+<h1 id="list-item-2">My Role</h1>
+<p class="lead role">The team and I worked through every step together.</p>
+<img src="images/myrole.png"class="img-fluid"/>
 
 
-<h1>The Problem</h1>
+<!-- User Persona -->
+<h1 id="list-item-3">Our User</h1>
+<div class= "user">
+<img src="images/userpersona.JPG" class="img-responsive"/>
+</div>
+
+<!-- The Problem -->
+<h1 id="list-item-4">The Problem</h1>
 <div class="container-fluid">
   <div class="row gap100">        
       <div class="col-md-6">
@@ -121,14 +126,25 @@
  </div>
 </div>
 
+<!-- First Concept -->
+<h1 id="list-item-5">First Concept</h1>
+<div class="row">
 
- <h1>First Concept</h1>
+  <div class="col-sm-4">
+    <img src="images/firstconcept1.png" width= "350px" class="img-responsive text-center">
+</div>
 
+<div class="col-sm-4">
+  <img src="images/firstconcept2.png" width= "350px" class="img-responsive text-center">
+</div>
 
+<div class="col-sm-4">
+  <img src="images/firstconcept3.png" width= "350px" class="img-responsive text-center">
+</div>
+</div>
 
-
-
-<h1>Our Solutions</h1>
+<!-- Solutions -->
+ <h1 id="list-item-6">Our Solutions</h1>
         <div class="container-fluid">
 
         <div class="row featurette">
@@ -143,7 +159,7 @@
               </p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" style="width: 350px; height: 330px;" src="images/solution1a.png" data-holder-rendered="true">
+            <img class="featurette-image mx-auto" style="width: 350px; height: 330px;" src="images/solution1a.png" data-holder-rendered="true">
           </div>
         </div>
 
@@ -163,7 +179,7 @@
               </p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" src="images/solution2a.png" data-holder-rendered="true" style="width: 350px; height: 330px;">
+            <img class="featurette-image  mx-auto" src="images/solution2a.png" data-holder-rendered="true" style="width: 350px; height: 330px;">
           </div>
         </div>
 
@@ -180,14 +196,14 @@
             </p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="images/solution3a.png" data-holder-rendered="true" style="width: 350px; height: 330px;">
+            <img class="featurette-image mx-auto" src="images/solution3a.png" data-holder-rendered="true" style="width: 350px; height: 330px;">
           </div>
         </div>
       </div>
     </div>
 
-
-<h1>Future Development</h1>
+<!-- Future Development -->
+<h1 id="list-item-7">Future Development</h1>
 
 <div class="container">
   <div class="card-columns d-flex justify-content-center">
@@ -212,6 +228,7 @@
   </div>
 </div>
 
+<!-- Connect Section -->
 <section class="connect">
 <h1 class="largetext">Let's Connect!</h1>
 
@@ -250,7 +267,6 @@
 </div>
 </div>
 
-<!-- Footer -->
     </main>
 
     <!-- Bootstrap JavaScript
